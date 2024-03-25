@@ -48,7 +48,19 @@ return require('packer').startup(function(use)
     use { 'williamboman/mason-lspconfig.nvim'}
     use('jose-elias-alvarez/null-ls.nvim')
     use('MunifTanjim/prettier.nvim')
-    -- use { 'neovim/nvim-lspconfig' }            -- previous installed
+    use {
+        "windwp/nvim-autopairs",
+        event = "InsertEnter",
+        config = function()
+            require("nvim-autopairs").setup {}
+        end
+    }
+    use{ 'neovim/nvim-lspconfig' }
+    use{ 'hrsh7th/cmp-nvim-lsp' }
+    use{ 'hrsh7th/cmp-buffer'}
+    use{ 'hrsh7th/cmp-path' }
+    use{ 'hrsh7th/cmp-cmdline' }
+    use{ 'hrsh7th/nvim-cmp' }
 
     -- Automatically set up your configuration after cloning packer.nvim
     -- Put this at the end after all plugins
