@@ -1,6 +1,6 @@
 # wishfulDeity's Silly Goofy Neovim Config
 
-Most of the work was done using [MartinLwx's config](https://martinlwx.github.io/en/config-neovim-from-scratch/). 
+Most of the work was done using [MartinLwx's config](https://martinlwx.github.io/en/config-neovim-from-scratch/), but like, the version from some time in 2023 (whenever the initial commit to this repo was). So it uses packer insteaed of whatever they use now.
 I just added some stuff to my own liking.
 
 To be honest, I don't really know how Lua works. I copy-pasted at least 99% of the code here.
