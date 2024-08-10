@@ -28,3 +28,4 @@ vim.opt.smartcase = true            -- but make it case sensitive if an uppercas
 -- vim.api.nvim_set_keymap('n', lhs, rhs  { noremap = true, silent = true })
 
 vim.g.blamer_enabled = true
+vim.g.blamer_delay = 500
