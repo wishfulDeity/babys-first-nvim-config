@@ -79,6 +79,11 @@ _G.packer_plugins = {
     path = "/home/lx/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  ["blamer.nvim"] = {
+    loaded = true,
+    path = "/home/lx/.local/share/nvim/site/pack/packer/start/blamer.nvim",
+    url = "https://github.com/APZelos/blamer.nvim"
+  },
   catppuccin = {
     loaded = true,
     path = "/home/lx/.local/share/nvim/site/pack/packer/start/catppuccin",

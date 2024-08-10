@@ -26,3 +26,5 @@ vim.opt.ignorecase = true           -- ignore case in searches by default
 vim.opt.smartcase = true            -- but make it case sensitive if an uppercase is entered
 
 -- vim.api.nvim_set_keymap('n', lhs, rhs  { noremap = true, silent = true })
+
+vim.g.blamer_enabled = true
