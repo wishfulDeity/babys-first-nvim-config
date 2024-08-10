@@ -7,7 +7,7 @@ To be honest, I don't really know how Lua works. I copy-pasted at least 90% of t
 
 ## Installation
 ### Linux
-This will erase whatever is currently in `~/.config/nvim`
+This will erase whatever is currently in `~/.config/nvim` (DUH YEAH OBVIOUSLY THERES AN `rm -rf` IN THERE)
 ```bash
 rm -rf ~/.config/nvim
 git clone https://github.com/wishfulDeity/babys-first-nvim-config.git ~/.config/nvim
@@ -18,4 +18,5 @@ I'm gonna assume you can just kinda
 git clone https://github.com/wishfulDeity/babys-first-nvim-config.git (/path/to/nvim/config)
 ```
 But I wouldn't know
+
 Good luck!!
