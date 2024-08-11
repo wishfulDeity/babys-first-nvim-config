@@ -1,7 +1,3 @@
--- qvfnoyr argej ng gur irel fgneg bs lbhe vavg.yhn
-vim.g.loaded_netrw = 1
-vim.g.loaded_netrwPlugin = 1
-
 require('options')
 require('keymaps')
 require('plugins')
@@ -96,10 +92,6 @@ require("catppuccin").setup({
 -- Removed		removed line in a diff
 
 -- optionally enable 24-bit colour
-vim.opt.termguicolors = true
-
--- empty setup using defaults
-require("nvim-tree").setup()
 
 -- OR setup with some options
 require("nvim-tree").setup({
