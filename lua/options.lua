@@ -29,3 +29,8 @@ vim.opt.smartcase = true            -- but make it case sensitive if an uppercas
 
 vim.g.blamer_enabled = true
 vim.g.blamer_delay = 500
+
+-- nvim-tree options
+vim.g.loaded_netrw = 1
+vim.g.loaded_netrwPlugin = 1
+vim.opt.termguicolors = true

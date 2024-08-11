@@ -55,8 +55,14 @@ return require('packer').startup(function(use)
         end
     }
     use { 'APZelos/blamer.nvim' }
-    use{ 'hrsh7th/cmp-vsnip' }
-    use{ 'hrsh7th/vim-vsnip' }
+    use { 'hrsh7th/cmp-vsnip' }
+    use { 'hrsh7th/vim-vsnip' }
+
+    -- nvim-tree & optional dependencies
+    use {
+        'nvim-tree/nvim-tree.lua',
+        'nvim-tree/nvim-web-devicons'
+    }
     -- Automatically set up your configuration after cloning packer.nvim
     -- Put this at the end after all plugins
     if packer_bootstrap then
