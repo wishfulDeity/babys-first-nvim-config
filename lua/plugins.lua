@@ -35,6 +35,7 @@ return require('packer').startup(function(use)
     use 'wbthomason/packer.nvim'
     -- All `use ...` go here:
     use { "catppuccin/nvim", as = "catppuccin" }
+    use { "tanvirtin/monokai.nvim", as = "monokai" }
     use { 'neovim/nvim-lspconfig' }
     use { 'hrsh7th/nvim-cmp', config = [[require('config.nvim-cmp')]] }
     use { 'hrsh7th/cmp-nvim-lsp' }

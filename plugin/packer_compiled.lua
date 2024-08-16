@@ -129,6 +129,11 @@ _G.packer_plugins = {
     path = "/home/lx/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
   },
+  monokai = {
+    loaded = true,
+    path = "/home/lx/.local/share/nvim/site/pack/packer/start/monokai",
+    url = "https://github.com/tanvirtin/monokai.nvim"
+  },
   ["null-ls.nvim"] = {
     loaded = true,
     path = "/home/lx/.local/share/nvim/site/pack/packer/start/null-ls.nvim",

@@ -1,5 +1,5 @@
 -- define your colorscheme here
-local colorscheme = 'catppuccin-frappe'
+local colorscheme = 'monokai'
 
 local is_ok, _ = pcall(vim.cmd, "colorscheme " .. colorscheme)
 if not is_ok then
